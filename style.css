@@ -1,0 +1,35 @@
+h1{
+    COLOR : YELLOW
+        }
+.header{
+display: flex;
+background: rgb(94, 162, 221);
+background-image: linear-gradient(red,yellow,blue);
+justify-content:center;
+border: rgb(255, 0, 13);
+border: 2px solid;
+}
+.grid{
+    padding-left:800px;
+    display: flex;
+    background: rgb(255,255,255);
+    color: yellow;
+    text-shadow: 2px 2px red;
+    box-shadow: 2px 2px blue;
+flex-direction: column;
+}
+.item{
+display: flex;
+border: 3px solid rgb(128, 19, 0);                                               
+background-image:repeating-radial-gradient(red,yellow,blue);
+}
+.item p{
+    position:absolute;
+opacity:0; 
+}
+.item:hover p{
+opacity:1
+}
+body{
+    background-color:rgb(255,255,255);
+}
